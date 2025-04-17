@@ -1,0 +1,248 @@
+[gd_scene load_steps=6 format=3 uid="uid://e6o5nydom161"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_m5uje"]
+[ext_resource type="StyleBox" uid="uid://dy2wdeb6a61bb" path="res://default_btn.tres" id="2_uqao1"]
+[ext_resource type="Script" path="res://button.gd" id="3_h65oa"]
+
+[sub_resource type="GDScript" id="GDScript_j0x37"]
+script/source = "extends GridContainer
+
+signal count_good
+signal count_bad
+"
+
+[sub_resource type="Theme" id="Theme_1rtfm"]
+default_font_size = 64
+
+[node name="Game" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_m5uje")
+
+[node name="GridContainer" type="GridContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -508.0
+offset_top = -508.0
+offset_right = 508.0
+offset_bottom = 508.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 5
+script = SubResource("GDScript_j0x37")
+
+[node name="Button1" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button2" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button3" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button4" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button5" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button6" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button7" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button8" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button9" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button10" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button11" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button12" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button13" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button14" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button15" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button16" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button17" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button18" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button19" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button20" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button21" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button22" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button23" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button24" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Button25" type="Button" parent="Control/GridContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("2_uqao1")
+script = ExtResource("3_h65oa")
+
+[node name="Score" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme = SubResource("Theme_1rtfm")
+text = "0"
+horizontal_alignment = 2
+
+[node name="ShowTimer" type="Timer" parent="."]
+process_callback = 0
+wait_time = 0.5
+autostart = true
+
+[node name="HideTimer" type="Timer" parent="."]
+process_callback = 0
+wait_time = 3.0
+autostart = true
+
+[connection signal="count_bad" from="Control/GridContainer" to="Control" method="_on_count_bad"]
+[connection signal="count_good" from="Control/GridContainer" to="Control" method="_on_count_good"]
+[connection signal="pressed" from="Control/GridContainer/Button1" to="Control/GridContainer/Button1" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button2" to="Control/GridContainer/Button2" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button3" to="Control/GridContainer/Button3" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button4" to="Control/GridContainer/Button4" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button5" to="Control/GridContainer/Button5" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button6" to="Control/GridContainer/Button6" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button7" to="Control/GridContainer/Button7" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button8" to="Control/GridContainer/Button8" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button9" to="Control/GridContainer/Button9" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button10" to="Control/GridContainer/Button10" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button11" to="Control/GridContainer/Button11" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button12" to="Control/GridContainer/Button12" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button13" to="Control/GridContainer/Button13" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button14" to="Control/GridContainer/Button14" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button15" to="Control/GridContainer/Button15" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button16" to="Control/GridContainer/Button16" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button17" to="Control/GridContainer/Button17" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button18" to="Control/GridContainer/Button18" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button19" to="Control/GridContainer/Button19" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button20" to="Control/GridContainer/Button20" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button21" to="Control/GridContainer/Button21" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button22" to="Control/GridContainer/Button22" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button23" to="Control/GridContainer/Button23" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button24" to="Control/GridContainer/Button24" method="_on_pressed"]
+[connection signal="pressed" from="Control/GridContainer/Button25" to="Control/GridContainer/Button25" method="_on_pressed"]
+[connection signal="timeout" from="ShowTimer" to="Control" method="_on_show_timer_timeout"]
+[connection signal="timeout" from="HideTimer" to="Control" method="_on_hide_timer_timeout"]
